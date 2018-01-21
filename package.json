@@ -1,0 +1,38 @@
+{
+  "name": "tinycore",
+  "version": "1.0.0",
+  "description": "yet another simple node.js framework built on top of TypeScript (ES8) And Expressjs. for your next project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example/index.js",
+    "test": "mocha --require ts-node/register src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekohex/tinycore.git"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Shady Khalifa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shekohex/tinycore/issues"
+  },
+  "homepage": "https://github.com/shekohex/tinycore#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/chai": "^4.0.10",
+    "@types/express": "^4.11.0",
+    "@types/mocha": "^2.2.45",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.1.0",
+    "nodemon": "^1.14.7",
+    "reflect-metadata": "^0.1.10",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
