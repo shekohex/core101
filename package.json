@@ -28,7 +28,7 @@
     "@types/mocha": "^2.2.45",
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "mocha": "^4.1.0",
     "nodemon": "^1.14.7",
     "reflect-metadata": "^0.1.10",
